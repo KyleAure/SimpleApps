@@ -1,0 +1,12 @@
+plugins {
+    id 'ear'
+}
+
+dependencies {
+    deploy project(path: ':SimpleSecureWeb', configuration: 'archives')
+}
+
+tasks.named('ear') {
+    appDirectory = file('META-INF')  // use application metadata found in this folder
+}
+

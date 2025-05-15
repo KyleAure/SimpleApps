@@ -1,2 +1,16 @@
 /.metadata/
 target/
+
+.project
+.classpath
+.settings
+.vscode
+.prefs
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+.DS_Store
