@@ -14,3 +14,7 @@ sourceSets {
         }
     }
 }
+
+war {
+    webAppDirectory = file('WebContent')
+}
